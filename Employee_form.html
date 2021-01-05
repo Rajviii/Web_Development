@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta http-equip="X-UA-compatible" content="ie=edge">
+	<title>Forms and Input tags</title>
+</head>
+<body>
+	<h2>Forms and Input tags</h2>
+	<form action="backend.php">
+		<div>
+		<label for="name">Name:</able>
+			<input type="text" name="myname" id="name">
+		</div>
+		<br>
+		<div>
+		<label for="role">Role:</label>
+			<input type="text" name="myrole" id="role">
+		</div>
+		<br>
+		<div>
+		<label for="bonus">Bonus:</label>
+			<input type="number" name="mybonus" id="bonus">
+		</div>
+		<br>
+		<div>
+		<label for="email">Email:</label>
+			<input type="email" name="myemail" id="email">
+		</div>
+		<br>
+		<div>
+		<label for="date">Date:</label>
+			<input type="date" name="mydate" id="date">
+		</div>
+		<div>
+		<label for="time">Time:</label>
+			<input type="time" name="mytime" id="time">
+		</div>
+		<br>
+		<div>
+		<label for="gender">Gender:</label><br>
+			Male:<input type="radio" name="mygender" id="gender">
+			Female:<input type="radio" name="mygender" id="gender">
+			Other:<input type="radio" name="mygender" id="gender">
+		</div>
+		<br>
+		<div>
+			Are you eligible?:<input type="checkbox" name="myeligibity">
+		</div>
+		<br>
+		<div>
+			Tell us about You:<br><textarea name="mytext" cols="90" rows="10"></textarea>
+		</div>
+		<br>
+		<div>
+		        I've filed all information about myself <br>
+			I accept:<input type="checkbox" checked name="myright">
+		</div>
+		<br>
+		<div>
+			<input type="submit" name="submittheform">
+		</div>
+		<div>
+		<br>
+			<input type="reset" name="resettheform">
+		</div>
+	</form>
+</body>
+</html>
